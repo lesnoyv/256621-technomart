@@ -76,10 +76,13 @@
     <div class="product-type-banner">
       <h1>Перфораторы</h1>
     </div>
-    <fieldset>
-      <legend>Фильтр:</legend>
-      <form action="https://echo.htmlacademy.ru/" method="get">
-        <h3 class="price-title">Цена:</h3>
+
+
+
+    <h3>Фильтр:</h3>
+    <form action="https://echo.htmlacademy.ru/" method="get">
+      <fieldset>
+        <legend>Цена:</legend>
         <!-- добавлен макетп ползунка -->
         <div class="range-filter">
           <div class="range-controls">
@@ -102,42 +105,45 @@
           <span>—</span>
           <input class="catalog-max-price" type="text" value="30000">
         </div>
-        <div class="vendor-filter">
-          <h3 class="vendor-title">Производители:</h3>
 
-          <input type="checkbox" name="Bosh" id="Bosh" checked>
-          <label for="Bosh">Bosh</label>
+      </fieldset>
+      <fieldset>
+        <legend>Производители:</legend>
 
-          <input type="checkbox" name="Interskol" id="Interskol">
-          <label for="Interskol">Интерскол</label>
+        <input type="checkbox" name="Bosh" id="Bosh" checked>
+        <label for="Bosh">Bosh</label>
 
-          <input type="checkbox" name="Makita" id="Makita" checked>
-          <label for="Makita">Makita</label>
+        <input type="checkbox" name="Interskol" id="Interskol">
+        <label for="Interskol">Интерскол</label>
 
-          <input type="checkbox" name="Dewalt" id="Dewalt">
-          <label for="Dewalt">Dewalt</label>
+        <input type="checkbox" name="Makita" id="Makita" checked>
+        <label for="Makita">Makita</label>
 
-          <input type="checkbox" name="Hitachi" id="Hitachi">
-          <label for="Hitachi">Hitachi</label>
+        <input type="checkbox" name="Dewalt" id="Dewalt">
+        <label for="Dewalt">Dewalt</label>
 
-        </div>
-        <div class="power">
-          <h3 class="power-title">Питание:</h3>
+        <input type="checkbox" name="Hitachi" id="Hitachi">
+        <label for="Hitachi">Hitachi</label>
 
-          <label>
+      </fieldset>
+      <fieldset class="power">
+        <legend>Питание:</legend>
+
+        <label>
           <input type="radio" name="power-type" value="accumulator" checked>
           Аккумуляторные
           </label>
 
-          <label>
+        <label>
           <input type="radio" name="power-type" value="electric">
           Сетевые
          </label>
-        </div>
+      </fieldset>
 
-        <input type="submit" value="Показать">
-      </form>
-    </fieldset>
+      <input type="submit" value="Показать">
+
+
+    </form>
 
     <section class="catalog-block">
       <div class="catalog-block-filter">

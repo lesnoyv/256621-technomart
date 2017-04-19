@@ -11,17 +11,18 @@
     <div class="header-top">
       <div class="container">
         <div class="logo"><a href="#" class="logotype">Техномарт</a></div>
-        <ul>
-          <li class="search">
-            <form action="/search" method="post">
-              <input type="search" name="search" id="search" placeholder="Поиск:" required>
-              <label for="search"></label>
-            </form>
-          </li>
-          <li class="bookmarks"><a href="#">Закладки: 0</a></li>
-          <li class="basket"><a href="#">Корзина: 0</a></li>
-          <li class="order"><a href="#">Оформить заказ</a></li>
-        </ul>
+
+        <div class="search">
+          <form action="/search" method="post">
+            <input type="search" name="search" id="search" placeholder="Поиск:" required>
+            <label for="search"></label>
+          </form>
+        </div>
+        <div class="header-market-block">
+          <a class="bookmarks" href="#">Закладки: 0</a>
+          <a class="basket" href="#">Корзина: 0</a>
+          <a class="order" href="#">Оформить заказ</a>
+        </div>
       </div>
     </div>
 
