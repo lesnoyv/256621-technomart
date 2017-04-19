@@ -10,18 +10,19 @@
   <header class="header-block">
     <div class="header-top">
       <div class="container">
-        <div class="logo"><a href="index.html" class="logotype">Техномарт</a></div>
-        <ul>
-          <li class="search">
-            <form action="/search" method="post">
-              <input type="search" name="search" id="search" placeholder="Поиск:" required>
-              <label for="search"></label>
-            </form>
-          </li>
-          <li class="bookmarks"><a href="#">Закладки: 0</a></li>
-          <li class="basket"><a href="#">Корзина: 10</a></li>
-          <li class="order"><a href="#">Оформить заказ</a></li>
-        </ul>
+        <div class="logo"><a href="#" class="logotype">Техномарт</a></div>
+
+        <div class="search">
+          <form action="/search" method="post">
+            <input type="search" name="search" id="search" placeholder="Поиск:" required>
+            <label for="search"></label>
+          </form>
+        </div>
+        <div class="header-market-block">
+          <a class="bookmarks" href="#">Закладки: 0</a>
+          <a class="basket" href="#">Корзина: 10</a>
+          <a class="order" href="#">Оформить заказ</a>
+        </div>
       </div>
     </div>
 
@@ -75,11 +76,25 @@
     <div class="product-type-banner">
       <h1>Перфораторы</h1>
     </div>
-    <fieldset class="filters">
+    <fieldset>
+      <legend>Фильтр:</legend>
       <form action="https://echo.htmlacademy.ru/" method="get">
-        <p>Фильтр:</p>
         <h3 class="price-title">Цена:</h3>
-        <!-- тут ваще погорел с ползунком-->
+        <!-- добавлен макетп ползунка -->
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div style="margin-left:0px;width:100px;" class="bar"></div>
+            </div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-controls">
+            от <input class="min-price" type="text" value="5 000"> до <input class="max-price" type="text" value="15 000">
+          </div>
+
+        </div>
+
         <div class="filter-price-control"></div>
 
         <div class="catalog-price-controls">
@@ -87,26 +102,26 @@
           <span>—</span>
           <input class="catalog-max-price" type="text" value="30000">
         </div>
-        <legend class="vendor-filter">
+        <div class="vendor-filter">
           <h3 class="vendor-title">Производители:</h3>
 
           <input type="checkbox" name="Bosh" id="Bosh" checked>
-          <label for="Baxter">Bosh</label>
+          <label for="Bosh">Bosh</label>
 
           <input type="checkbox" name="Interskol" id="Interskol">
-          <label for="Natty">Интерскол</label>
+          <label for="Interskol">Интерскол</label>
 
           <input type="checkbox" name="Makita" id="Makita" checked>
-          <label for="Suavecito">Makita</label>
+          <label for="Makita">Makita</label>
 
           <input type="checkbox" name="Dewalt" id="Dewalt">
-          <label for="Malin">Dewalt</label>
+          <label for="Dewalt">Dewalt</label>
 
           <input type="checkbox" name="Hitachi" id="Hitachi">
-          <label for="Murray">Hitachi</label>
+          <label for="Hitachi">Hitachi</label>
 
-        </legend>
-        <legend class="power">
+        </div>
+        <div class="power">
           <h3 class="power-title">Питание:</h3>
 
           <label>
@@ -118,7 +133,7 @@
           <input type="radio" name="power-type" value="electric">
           Сетевые
          </label>
-        </legend>
+        </div>
 
         <input type="submit" value="Показать">
       </form>
@@ -259,7 +274,7 @@
           <p class="item-price">12500 Р.</p>
         </div>
 
-        <div class="number-of-page">
+        <div class="pagination">
           <a href="#">1</a>
           <a href="#">2</a>
           <a href="#">3</a>
