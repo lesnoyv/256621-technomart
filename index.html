@@ -10,7 +10,7 @@
 <body>
   <header class="header-block">
     <div class="header-top">
-      <div class="container">
+      <div class="container clearfix">
         <div class="logo"><a href="#" class="logotype">Техномарт</a></div>
 
         <div class="search">
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container clearfix">
       <div class="header-middle">
         <div class="about-shop">
           <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
@@ -59,14 +59,14 @@
   </header>
 
   <main class="main-block">
-    <div class="container">
+    <div class="container clearfix">
       <section class="goods-blocks">
         <div class="materials offer-block">
           <p>Материалы</p>
           <a href="#" class="materials-list">На любой вкус</a>
         </div>
         <div class="instruments offer-block">
-          <p>инструменты</p>
+          <p>Инструменты</p>
           <a href="#" class="instruments-list">На все случаи</a>
         </div>
         <div class="technics offer-block">
@@ -98,30 +98,32 @@
             <a href="catalog.html" class="slider-btn">открыть каталог</a>
           </div>
         </div>
-        <div class="sales offer-block">
-          <p>Скидки 50%</p>
-          <a href="#" class="sales-list">На 350 товаров</a>
-        </div>
-        <div class="delivery offer-block">
-          <p>Доставка</p>
-          <a href="#" class="delivery-list">Бесплатно</a>
+        <div class="slider-offer">
+          <div class="sales offer-block">
+            <p>Скидки 50%</p>
+            <a href="#" class="sales-list">На 350 товаров</a>
+          </div>
+          <div class="delivery offer-block">
+            <p>Доставка</p>
+            <a href="#" class="delivery-list">Бесплатно</a>
+          </div>
         </div>
       </section>
     </div>
     <!-- можно ли в одном диве центровщик?-->
-    <div class="container">
+    <div class="container clearfix">
       <div class="popular-banner">
         <h3 class="accent-title">Популярные товары:</h3>
         <a href="#">Все популярные товары</a>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container clearfix">
       <section class="popular-items-list">
         <div class="catalog-item">
-          <figure class="catalog-item-image">
+          <div class="catalog-item-image">
             <img src="img/bosh-2.jpg" alt="BFG 9000" width="218" height="153">
-          </figure>
+          </div>
           <!-- я так понимаю, надо будет это скрывать\показывать при наведении? -->
           <div class="catalog-item-buttons">
             <a href="#" class="catalog-button catalog-item-buy">Купить</a>
@@ -134,9 +136,9 @@
         </div>
 
         <div class="catalog-item">
-          <figure class="catalog-item-image">
+          <div class="catalog-item-image">
             <img src="img/bosh-1.jpg" alt="BFG 3000" width="218" height="153">
-          </figure>
+          </div>
           <div class="catalog-item-buttons">
             <a href="#" class="catalog-button catalog-item-buy">Купить</a>
             <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
@@ -148,9 +150,9 @@
         </div>
 
         <div class="catalog-item">
-          <figure class="catalog-item-image">
+          <div class="catalog-item-image">
             <img src="img/bosh-3.jpg" alt="BFG 6000" width="218" height="153">
-          </figure>
+          </div>
           <div class="catalog-item-buttons">
             <a href="#" class="catalog-button catalog-item-buy">Купить</a>
             <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
@@ -162,9 +164,9 @@
         </div>
 
         <div class="catalog-item">
-          <figure class="catalog-item-image">
+          <div class="catalog-item-image">
             <img src="img/bosh-1.jpg" alt="BFG 2000" width="218" height="153">
-          </figure>
+          </div>
           <div class="catalog-item-buttons">
             <a href="#" class="catalog-button catalog-item-buy">Купить</a>
             <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
@@ -177,14 +179,14 @@
     </div>
 
     <div class="container">
-      <div class="popular-vendors-banner">
+      <div class="popular-vendors-banner clearfix">
         <h3 class="accent-title">Популярные производители:</h3>
         <a href="#">Все производители</a>
       </div>
     </div>
 
     <div class="container">
-      <section class="vendors-list">
+      <div class="vendors-list clearfix">
         <a href="#" class="vendor-logo">
           <img src="img/bosch.jpg" alt="Bosch" width="126" height="37">
         </a>
@@ -194,7 +196,7 @@
         <a href="#" class="vendor-logo">
           <img src="img/dewalt.jpg" alt="DeWalt" width="146" height="44">
         </a>
-        <a href="#" class="vendor-logo">
+        <a href="#" class="vendor-logo right-logo">
           <img src="img/interskol.jpg" alt="Интерскол" width="184" height="32">
         </a>
         <a href="#" class="vendor-logo">
@@ -206,14 +208,14 @@
         <a href="#" class="vendor-logo">
           <img src="img/aeg.jpg" alt="AEG" width="151" height="96">
         </a>
-        <a href="#" class="vendor-logo">
+        <a href="#" class="vendor-logo right-logo">
           <img src="img/metabo.jpg" alt="Metabo" width="204" height="69">
         </a>
-      </section>
+      </div>
     </div>
 
     <section class="services">
-      <div class="container">
+      <div class="container clearfix">
         <div class="services-about">
           <h2 class="about-title">Сервисы</h2>
           <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
@@ -236,8 +238,8 @@
       </div>
     </section>
 
-    <section class="company-about">
-      <div class="container">
+    <div class="company-about">
+      <div class="container clearfix">
         <div class="company-about-left">
           <h2 class="about-title">Компания "Техномарт"</h2>
           <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкомномть на гастарбайтерах.</p>
@@ -251,7 +253,7 @@
           <a href="#" class="company-about-btn">Подробнее о компании</a>
         </div>
       </div>
-      <div class="company-about-left">
+      <div class="company-about-right">
         <h2 class="about-title">Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис:</p>
         <a href="https://yandex.ru/maps/" class="company-contacts-map">
@@ -259,7 +261,7 @@
         </a>
         <a href="#" class="company-feedback-btn">Заблудились? Напишите нам!</a>
       </div>
-    </section>
+    </div>
   </main>
 
   <footer class="footer-top">

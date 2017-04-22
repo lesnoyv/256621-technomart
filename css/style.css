@@ -6,6 +6,11 @@
   font-family: PT Sans;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-size: 13px;
   line-height: 24px;
@@ -25,4 +30,255 @@ body {
   line-height: 24px;
   color: #000;
   text-transform: uppercase;
+}
+
+.header-block {
+  background-color: #9E9E9E;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 1px solid black;
+}
+
+.logo {
+  float: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+  width: 220px;
+  font-size: 24px;
+  background-color: #EE3643;
+}
+
+.search {
+  display: inline-block;
+  float: left;
+}
+
+.header-market-block {
+  display: inline-block;
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-shop {
+  float: left;
+  width: 200px;
+  padding: 36px 49px;
+  margin-right: 10px;
+  outline: 1px dashed red;
+}
+
+.about-shop h1 {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.header-middle-contacts {
+  float: left;
+  width: 271px;
+  margin: 0 10px;
+  padding: 48px 29px 48px 0;
+  outline: 1px dashed red;
+}
+
+
+/* тут непонятно, как считать размеры, чтобы блок по высоте был таким же, как предыдщие два */
+
+.entry {
+  float: left;
+  width: 281px;
+  margin-left: 10px;
+  padding: 49px 0 69px 19px;
+  outline: 1px dashed red;
+}
+
+.entry a {
+  display: inline-block;
+  font-size: 21px;
+  line-height: 18px;
+  min-height: 47px;
+  outline: 1px dashed red;
+}
+
+.header-bottom {
+  display: inline-block;
+}
+
+.header-bottom li {
+  display: inline-block;
+  outline: 1px dashed red;
+  font-size: 21px;
+  min-height: 55px;
+}
+
+.main-block {
+  background-color: #D3D3D3;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.offer-block {
+  float: left;
+  outline: 1px dashed red;
+  width: 300px;
+  min-height: 125px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.technics, .delivery, .sales {
+  margin-right: 0;
+}
+
+.slider-2 {
+  display: none;
+}
+
+.slider {
+  float: left;
+  margin-right: 20px;
+}
+
+.popular-banner {
+  margin-bottom: 22px;
+  width: auto;
+}
+
+.popular-banner a {
+  float: right;
+}
+
+.accent-title {
+  float: left;
+}
+
+.catalog-item {
+  float: left;
+  width: 220px;
+  min-height: 318px;
+  margin-right: 20px;
+  outline: 1px dashed red;
+}
+
+.catalog-item:last-child {
+  margin-right: 0;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+.popular-items-list {
+  margin-bottom: 22px;
+}
+
+
+/* почему на прудыдущий баннер маргин снизу работал, а на этот нет, при тех же условиях? что за бред?!
+- разобрался, класс clearfix теперь нужен не у дива центровщика. значит ли это, что центравщик всегда нужно вкладывать в блок?*/
+
+.popular-vendors-banner {
+  margin-bottom: 22px;
+  width: auto;
+}
+
+.popular-vendors-banner a {
+  float: right;
+}
+
+.vendor-logo {
+  display: inline-block;
+  height: 142px;
+  width: 220px;
+  vertical-align: top;
+  clear: both;
+  outline: 1px dashed red;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+
+/* Почему не вмещается при отступе в 20px? */
+
+.right-logo {
+  margin-right: 0px;
+}
+
+
+/* как сделать картинки по центру блока?! никак не помогает, на форумах пишут способ ниже, но не работает */
+
+.vendors-logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.vendors-list {
+  margin-bottom: 70px;
+  background-color: yellow;
+}
+
+.services-about {
+  display: block;
+  min-height: 110px;
+  padding-top: 32px;
+  padding-bottom: 70px;
+  line-height: 24px;
+  outline: 1px dashed red;
+}
+
+.services-about p {
+  padding: 0;
+  margin: 0;
+}
+
+.service-list {
+  width: 240px;
+  outline: 1px dashed red;
+}
+
+
+/* почему все выпало из блока? почему он не растянулся?  */
+
+.service-list a {
+  text-align: 30px;
+  font-size: 21px;
+  padding: 30px 97px 30px 24px;
+  outline: 1px dashed green;
+}
+
+.service-list ul {
+  list-style: none;
+}
+
+.delivery-about {
+  float: right;
+}
+
+.services {
+  margin-bottom: 80px;
+}
+
+.company-about-left {
+  width: 440px;
+  float: left;
+  outline: 1px dashed green;
+}
+
+
+/* почему блок не становится рядом? места хватает! раньше все работало! */
+
+.company-about-right {
+  width: 310px;
+  outline: 1px dashed green;
+  float: left;
 }
