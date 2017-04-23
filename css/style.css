@@ -56,12 +56,10 @@ body {
 }
 
 .search {
-  display: inline-block;
   float: left;
 }
 
 .header-market-block {
-  display: inline-block;
   float: left;
 }
 
@@ -159,10 +157,6 @@ body {
   float: right;
 }
 
-.accent-title {
-  float: left;
-}
-
 .catalog-item {
   float: left;
   width: 220px;
@@ -242,26 +236,35 @@ figure {
 }
 
 .service-list {
-  width: 240px;
-  outline: 1px dashed red;
+  position: relative;
+  padding-top: 30px;
 }
 
 
 /* почему все выпало из блока? почему он не растянулся?  */
 
-.service-list a {
-  text-align: 30px;
-  font-size: 21px;
-  padding: 30px 97px 30px 24px;
-  outline: 1px dashed green;
+.service-list-controls {
+  float: left;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  margin: 0;
 }
 
-.service-list ul {
-  list-style: none;
+.service-list-control {
+  width: 200px;
+  padding: 20px;
+  outline: 1px dashed red;
+  display: block;
+}
+
+.service-list-about {
+  width: 620px;
+  float: right;
 }
 
 .delivery-about {
-  float: right;
+  width: 310px;
 }
 
 .services {
@@ -274,11 +277,56 @@ figure {
   outline: 1px dashed green;
 }
 
-
-/* почему блок не становится рядом? места хватает! раньше все работало! */
-
 .company-about-right {
   width: 310px;
   outline: 1px dashed green;
+  float: right;
+}
+
+.logo-footer {
   float: left;
+  margin-right: 180px;
+}
+
+.footer-top-menu li {
+  display: inline-block;
+  outline: 1px dashed green;
+}
+
+.footer-adress {
+  float: left;
+  margin-right: 180px;
+  outline: 1px dashed green;
+}
+
+.footer-middle-menu li {
+  display: inline-block;
+  outline: 1px dashed green;
+}
+
+.footer-copyright {
+  float: left;
+  outline: 1px dashed green;
+}
+
+.footer-bottom-feedback {
+  float: left;
+  outline: 1px dashed green;
+}
+
+.footer-bottom-design {
+  float: right;
+  outline: 1px dashed green;
+}
+
+.footer-top {
+  background-color: red;
+}
+
+.footer-middle {
+  background-color: yellow;
+}
+
+.footer-bottom {
+  background-color: grey;
 }
