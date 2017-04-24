@@ -160,12 +160,12 @@ body {
 .catalog-item {
   float: left;
   width: 220px;
-  min-height: 318px;
-  margin-right: 20px;
+  min-height: 350px;
+  margin: 0 12.5px 12.5px 0;
   outline: 1px dashed red;
 }
 
-.catalog-item:last-child {
+.catalog-item:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -329,4 +329,49 @@ figure {
 
 .footer-bottom {
   background-color: grey;
+}
+
+
+/* catalog-item.html */
+
+.breadcrumbs {
+  margin: 20px 10px 20px 30px;
+  outline: 1px dashed green;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+form {
+  float: left;
+  width: 220px;
+  outline: 1px dashed green;
+}
+
+.side-right {
+  float: right;
+  width: 700px;
+  margin: 0 0 60px;
+}
+
+.sort-controls {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.sort-controls li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.catalog-block {
+  float: right;
+  width: 700px;
+}
+
+.pagination {
+  display: inline-block;
 }
