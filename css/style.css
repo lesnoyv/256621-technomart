@@ -23,6 +23,7 @@ body {
   line-height: 30px;
   color: #32425c;
   text-transform: uppercase;
+  outline: 1px dashed green;
 }
 
 .about-title {
@@ -161,7 +162,7 @@ body {
   float: left;
   width: 220px;
   min-height: 350px;
-  margin: 0 12.5px 12.5px 0;
+  margin: 0 20px 20px 0;
   outline: 1px dashed red;
 }
 
@@ -195,30 +196,18 @@ figure {
   height: 142px;
   width: 220px;
   vertical-align: top;
-  clear: both;
+  margin: 0 20px 20px 0;
   outline: 1px dashed red;
-  margin-right: 10px;
-  margin-bottom: 20px;
-}
-
-
-/* Почему не вмещается при отступе в 20px? */
-
-.right-logo {
-  margin-right: 0px;
-}
-
-
-/* как сделать картинки по центру блока?! никак не помогает, на форумах пишут способ ниже, но не работает */
-
-.vendors-logo img {
-  display: block;
-  margin: 0 auto;
 }
 
 .vendors-list {
+  font-size: 0px;
   margin-bottom: 70px;
   background-color: yellow;
+}
+
+.vendor-logo:nth-child(4n) {
+  margin-right: 0;
 }
 
 .services-about {
@@ -239,9 +228,6 @@ figure {
   position: relative;
   padding-top: 30px;
 }
-
-
-/* почему все выпало из блока? почему он не растянулся?  */
 
 .service-list-controls {
   float: left;
@@ -297,6 +283,10 @@ figure {
   float: left;
   margin-right: 180px;
   outline: 1px dashed green;
+}
+
+.footer-middle-menu {
+  margin-top: 0;
 }
 
 .footer-middle-menu li {
@@ -374,4 +364,9 @@ form {
 
 .pagination {
   display: inline-block;
+}
+
+.catalog-block-filter {
+  margin-bottom: 20px;
+  outline: 1px dashed blue;
 }
