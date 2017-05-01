@@ -1,67 +1,17 @@
-@font-face {
-  font-family: Cuprum;
-}
-
-@font-face {
-  font-family: PT Sans;
-}
-
 html, body {
   margin: 0;
   padding: 0;
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
-  line-height: 24px;
-  color: #000;
-  font-weight: normal;
-}
-
-.accent-title {
-  font-size: 30px;
-  line-height: 30px;
-  color: #32425c;
-  text-transform: uppercase;
-  outline: 1px dashed green;
-}
-
-.about-title {
-  font-size: 30px;
-  line-height: 24px;
-  color: #000;
-  text-transform: uppercase;
-}
-
-.header-block {
-  background-color: #9E9E9E;
 }
 
 .container {
   width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
-  outline: 1px solid black;
-}
-
-.logo {
-  float: left;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  line-height: 42px;
-  text-align: center;
-  width: 220px;
-  font-size: 24px;
-  background-color: #EE3643;
-}
-
-.search {
-  float: left;
-}
-
-.header-market-block {
-  float: left;
+  position: relative;
 }
 
 .clearfix::after {
@@ -70,303 +20,300 @@ body {
   clear: both;
 }
 
-.about-shop {
-  float: left;
-  width: 200px;
-  padding: 36px 49px;
-  margin-right: 10px;
-  outline: 1px dashed red;
+.header-block {
+  font-size: 17px;
+  font-family: 'Cuprum';
 }
 
-.about-shop h1 {
+.header-top {
+  background: #33445A;
+}
+
+.header-top-wrapper {
+  display: flex;
+}
+
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 700;
+  background: #EE3643;
+  font-size: 24px;
+  line-height: 42px;
+  width: 220px;
+  box-shadow: #B52933 0px 5px 0px;
+}
+
+.logo:hover {
+  background: #CA2C37;
+}
+
+.logo:active {
+  background: #BA2732;
+}
+
+.search-top input {
+  height: 32px;
+  width: 230px;
+  border: none;
+  padding: 5px 0px 5px 40px;
+  background: #33445A url('../img/icon-search.png') no-repeat 5% 50%;
+  opacity: 0.5;
+  color: #293449;
+}
+
+.search-top input:hover {
+  opacity: 1;
+  background: #212A3A url('../img/icon-search.png') no-repeat 5% 50%;
+  color: #000;
+}
+
+.search-top input:active {
+  background: #fff;
+  opacity: 1;
+}
+
+.search-top {
+  position: relative;
+}
+
+.search-top label {
+  position: absolute;
+  color: #fff;
+  left: 48px;
+  top: 12px;
+}
+
+.search-top input:focus {
+  background: #fff url('../img/icon-search-red.png') no-repeat 5% 50%;
+  opacity: 1;
+}
+
+.search-top input[type=text]:active+label {
+  color: #fff;
+}
+
+.search-top input[type=text]:focus+label {
+  display: none;
+}
+
+.top-bookmarks, .top-basket, .top-order {
+  position: relative;
+  overflow: hidden;
+}
+
+.top-bookmarks::before {
+  content: "";
+  position: absolute;
+  background: url('../img/icon-bookmark.png') no-repeat 5% 50%;
+  left: 17px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+}
+
+.top-bookmarks:hover::before {
+  opacity: 1;
+}
+
+.top-bookmarks:hover:active {
+  opacity: 0.2;
+}
+
+.top-bookmarks a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  line-height: 42px;
+  padding: 12px 30px 12px 45px;
+}
+
+.top-bookmarks a:hover {
+  background: #212A3A;
+}
+
+.top-basket::before {
+  content: "";
+  position: absolute;
+  background: url('../img/icon-basket.png') no-repeat 5% 50%;
+  left: 17px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+}
+
+.top-basket:hover::before {
+  opacity: 1;
+}
+
+.top-basket:hover:active {
+  opacity: 0.2;
+}
+
+.top-basket a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  line-height: 42px;
+  padding: 12px 30px 12px 45px;
+}
+
+.top-basket a:hover {
+  background: #212A3A;
+}
+
+.top-order a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  line-height: 42px;
+  padding: 12px 24px 12px 20px;
+  background: #63A63E;
+}
+
+.top-order a:hover {
+  background: #5FBB2D;
+}
+
+.top-order:hover:active {
+  opacity: 0.2;
+}
+
+.header-block {
+  background: #F2F6F8;
+  padding-bottom: 65px;
+}
+
+.header-middle {
+  margin-bottom: 45px;
+}
+
+.about-shop {
+  padding-top: 45px;
+}
+
+.header-info {
+  margin: 0 20px 0 40px;
+  font-style: italic;
   font-size: 16px;
   line-height: 23px;
+  font-weight: normal;
+  color: #EE3643;
+  float: left;
+  width: 200px;
 }
 
 .header-middle-contacts {
   float: left;
-  width: 271px;
-  margin: 0 10px;
-  padding: 48px 29px 48px 0;
-  outline: 1px dashed red;
+  width: 266px;
+  position: relative;
+  margin: 0 0 0 30px;
 }
 
+.phone {
+  display: inline-block;
+  border: 2px solid #fff;
+  font-size: 21px;
+  line-height: 17px;
+  color: #E9292A;
+  margin: 0;
+  padding: 9px 45px 9px 70px;
+}
 
-/* тут непонятно, как считать размеры, чтобы блок по высоте был таким же, как предыдщие два */
+.phone::before {
+  content: "";
+  position: absolute;
+  background: url('../img/icon-phone.png') no-repeat 50%;
+  left: 15px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425C;
+  margin: 5px 0 0 0;
+}
 
 .entry {
-  float: left;
-  width: 281px;
-  margin-left: 10px;
-  padding: 49px 0 69px 19px;
-  outline: 1px dashed red;
-}
-
-.entry a {
-  display: inline-block;
+  float: right;
+  padding-left: 67px;
+  position: relative;
   font-size: 21px;
   line-height: 18px;
-  min-height: 47px;
-  outline: 1px dashed red;
+}
+
+.login, .registration {
+  text-decoration: none;
+  background: #fff;
+  display: inline-block;
+  padding: 12px 25px;
+  color: #000;
+}
+
+.login {
+  padding-left: 49px;
+  margin-right: 5px
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  background: url('../img/icon-login.png') no-repeat 50%;
+  left: 80px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.login:hover::before {
+  content: "";
+  position: absolute;
+  background: url('../img/icon-login-hover.png') no-repeat 50%;
+  left: 80px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.login:hover, .registration:hover {
+  color: #EE3643;
+}
+
+.login:active, .registration:active {
+  opacity: 0.2;
+}
+
+.registration {
+  margin-left: 0;
 }
 
 .header-bottom {
-  display: inline-block;
-}
-
-.header-bottom li {
-  display: inline-block;
-  outline: 1px dashed red;
-  font-size: 21px;
-  min-height: 55px;
-}
-
-.main-block {
-  background-color: #D3D3D3;
-  padding-top: 60px;
-  margin-bottom: 50px;
-}
-
-.offer-block {
-  float: left;
-  outline: 1px dashed red;
-  width: 300px;
-  min-height: 125px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.technics, .delivery, .sales {
-  margin-right: 0;
-}
-
-.slider-2 {
-  display: none;
-}
-
-.slider {
-  float: left;
-  margin-right: 20px;
-}
-
-.popular-banner {
-  margin-bottom: 22px;
-  width: auto;
-}
-
-.popular-banner a {
-  float: right;
-}
-
-.catalog-item {
-  float: left;
-  width: 220px;
-  min-height: 350px;
-  margin: 0 20px 20px 0;
-  outline: 1px dashed red;
-}
-
-.catalog-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-figure {
-  margin: 0 auto;
-}
-
-.popular-items-list {
-  margin-bottom: 22px;
-}
-
-
-/* почему на прудыдущий баннер маргин снизу работал, а на этот нет, при тех же условиях? что за бред?!
-- разобрался, класс clearfix теперь нужен не у дива центровщика. значит ли это, что центравщик всегда нужно вкладывать в блок?*/
-
-.popular-vendors-banner {
-  margin-bottom: 22px;
-  width: auto;
-}
-
-.popular-vendors-banner a {
-  float: right;
-}
-
-.vendor-logo {
-  display: inline-block;
-  height: 142px;
-  width: 220px;
-  vertical-align: top;
-  margin: 0 20px 20px 0;
-  outline: 1px dashed red;
-}
-
-.vendors-list {
-  font-size: 0px;
-  margin-bottom: 70px;
-  background-color: yellow;
-}
-
-.vendor-logo:nth-child(4n) {
-  margin-right: 0;
-}
-
-.services-about {
-  display: block;
-  min-height: 110px;
-  padding-top: 32px;
-  padding-bottom: 70px;
-  line-height: 24px;
-  outline: 1px dashed red;
-}
-
-.services-about p {
-  padding: 0;
+  clear: both;
   margin: 0;
-}
-
-.service-list {
-  position: relative;
-  padding-top: 30px;
-}
-
-.service-list-controls {
-  float: left;
+  display: flex;
   list-style: none;
-  padding: 0;
-  position: relative;
-  margin: 0;
+  justify-content: space-around;
+  background: #33445A;
+  box-shadow: #293449 0 5px 0;
+  flex-flow: wrap;
 }
 
-.service-list-control {
-  width: 200px;
-  padding: 20px;
-  outline: 1px dashed red;
-  display: block;
-}
-
-.service-list-about {
-  width: 620px;
-  float: right;
-}
-
-.delivery-about {
-  width: 310px;
-}
-
-.services {
-  margin-bottom: 80px;
-}
-
-.company-about-left {
-  width: 440px;
-  float: left;
-  outline: 1px dashed green;
-}
-
-.company-about-right {
-  width: 310px;
-  outline: 1px dashed green;
-  float: right;
-}
-
-.logo-footer {
-  float: left;
-  margin-right: 180px;
-}
-
-.footer-top-menu li {
+.header-bottom a {
   display: inline-block;
-  outline: 1px dashed green;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 17px;
+  color: #fff;
+  padding: 21px 33.3px;
 }
 
-.footer-adress {
-  float: left;
-  margin-right: 180px;
-  outline: 1px dashed green;
-}
-
-.footer-middle-menu {
-  margin-top: 0;
-}
-
-.footer-middle-menu li {
-  display: inline-block;
-  outline: 1px dashed green;
-}
-
-.footer-copyright {
-  float: left;
-  outline: 1px dashed green;
-}
-
-.footer-bottom-feedback {
-  float: left;
-  outline: 1px dashed green;
-}
-
-.footer-bottom-design {
-  float: right;
-  outline: 1px dashed green;
-}
-
-.footer-top {
-  background-color: red;
-}
-
-.footer-middle {
-  background-color: yellow;
-}
-
-.footer-bottom {
-  background-color: grey;
-}
-
-
-/* catalog-item.html */
-
-.breadcrumbs {
-  margin: 20px 10px 20px 30px;
-  outline: 1px dashed green;
-}
-
-.breadcrumbs li {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-form {
-  float: left;
-  width: 220px;
-  outline: 1px dashed green;
-}
-
-.side-right {
-  float: right;
-  width: 700px;
-  margin: 0 0 60px;
-}
-
-.sort-controls {
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-
-.sort-controls li {
-  display: inline-block;
-  margin: 0 30px;
-}
-
-.catalog-block {
-  float: right;
-  width: 700px;
-}
-
-.pagination {
-  display: inline-block;
-}
-
-.catalog-block-filter {
-  margin-bottom: 20px;
-  outline: 1px dashed blue;
+.header-bottom a:hover {
+  background: #293449;
 }
