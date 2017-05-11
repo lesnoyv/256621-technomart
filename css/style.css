@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  font-family: 'Cuprum', sans-serif, Arial;
+  font-family: "Cuprum", sans-serif, Arial;
   font-size: 13px;
 }
 
@@ -27,7 +27,7 @@ img {
 
 .header-block {
   font-size: 17px;
-  font-family: 'Cuprum', Arial;
+  font-family: "Cuprum", sans-serif, Arial;
 }
 
 .header-top {
@@ -64,14 +64,14 @@ img {
   width: 230px;
   border: none;
   padding: 5px 0px 5px 40px;
-  background: #33445A url('../img/icon-search.png') no-repeat 5% 50%;
+  background: #33445A url('../img/icon-search.png') no-repeat 6% 50%;
   opacity: 0.5;
   color: #293449;
 }
 
 .search-top input:hover {
   opacity: 1;
-  background: #212A3A url('../img/icon-search.png') no-repeat 5% 50%;
+  background: #212A3A url('../img/icon-search.png') no-repeat 6% 50%;
   color: #000;
 }
 
@@ -92,7 +92,7 @@ img {
 }
 
 .search-top input:focus {
-  background: #fff url('../img/icon-search-red.png') no-repeat 5% 50%;
+  background: #fff url('../img/icon-search-red.png') no-repeat 6% 50%;
   opacity: 1;
 }
 
@@ -144,7 +144,7 @@ img {
   content: "";
   position: absolute;
   background: url('../img/icon-basket.png') no-repeat 5% 50%;
-  left: 17px;
+  left: 12px;
   top: 5px;
   width: 30px;
   height: 30px;
@@ -164,7 +164,7 @@ img {
   color: #fff;
   font-size: 17px;
   line-height: 42px;
-  padding: 12px 30px 12px 45px;
+  padding: 12px 31px 12px 45px;
 }
 
 .top-basket a:hover {
@@ -194,15 +194,15 @@ img {
 }
 
 .header-middle {
-  margin-bottom: 45px;
+  margin-bottom: 39px;
 }
 
 .about-shop {
-  padding-top: 45px;
+  padding-top: 47px;
 }
 
 .header-info {
-  margin: 0 20px 0 40px;
+  margin: 2px 39px 0 52px;
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
@@ -214,7 +214,7 @@ img {
 
 .header-middle-contacts {
   float: left;
-  width: 266px;
+  width: 267px;
   position: relative;
   margin: 0 0 0 30px;
 }
@@ -226,14 +226,14 @@ img {
   line-height: 17px;
   color: #E9292A;
   margin: 0;
-  padding: 9px 45px 9px 70px;
+  padding: 11px 48px 10px 71px;
 }
 
 .phone::before {
   content: "";
   position: absolute;
   background: url('../img/icon-phone.png') no-repeat 50%;
-  left: 15px;
+  left: 8px;
   top: 5px;
   width: 30px;
   height: 30px;
@@ -243,12 +243,12 @@ img {
   font-size: 14px;
   line-height: 24px;
   color: #32425C;
-  margin: 5px 0 0 0;
+  margin: 7px 0 0 8px;
 }
 
 .entry {
   float: right;
-  padding-left: 67px;
+  padding-left: 50px;
   position: relative;
   font-size: 21px;
   line-height: 18px;
@@ -258,20 +258,20 @@ img {
   text-decoration: none;
   background: #fff;
   display: inline-block;
-  padding: 12px 25px;
+  padding: 13px 25px;
   color: #000;
 }
 
 .login {
-  padding-left: 49px;
-  margin-right: 5px
+  padding-left: 46px;
+  margin-right: 2px
 }
 
 .login::before {
   content: "";
   position: absolute;
   background: url('../img/icon-login.png') no-repeat 50%;
-  left: 80px;
+  left: 56px;
   top: 5px;
   width: 30px;
   height: 30px;
@@ -281,7 +281,7 @@ img {
   content: "";
   position: absolute;
   background: url('../img/icon-login-hover.png') no-repeat 50%;
-  left: 80px;
+  left: 56px;
   top: 5px;
   width: 30px;
   height: 30px;
@@ -302,6 +302,7 @@ img {
 .header-bottom {
   clear: both;
   margin: 0;
+  padding-left: 22px;
   font-size: 0;
   list-style: none;
   background: #33445A;
@@ -310,11 +311,12 @@ img {
 
 .header-bottom a {
   display: inline-block;
+  vertical-align: top;
   text-decoration: none;
   font-size: 17px;
   line-height: 17px;
   color: #fff;
-  padding: 22px 34px 21px 33px;
+  padding: 20px 32px 18px 29px;
 }
 
 .header-bottom a:hover {
@@ -330,12 +332,13 @@ img {
 
 .main-block {
   background-color: #fff;
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 59px;
+  margin-bottom: 32px;
 }
 
 .offer-block {
   float: left;
+  position: relative;
   width: 300px;
   min-height: 123px;
   margin-right: 20px;
@@ -351,7 +354,7 @@ img {
 .slider-btn {
   position: absolute;
   text-decoration: none;
-  top: 207px;
+  top: 206px;
   left: 25px;
   width: 195px;
 }
@@ -379,11 +382,11 @@ img {
 }
 
 .materials {
-  background: #FFBF47 url('../img/icon-materials.png') no-repeat 210px 50%;
+  background: #FFBF47 url('../img/icon-materials.png') no-repeat 211px 30px;
 }
 
 .instruments {
-  background: #3BBCE3 url('../img/icon-instruments.png') no-repeat 195px 30px;
+  background: #3BBCE3 url('../img/icon-instruments.png') no-repeat 195px 32px;
 }
 
 .technics {
@@ -391,7 +394,7 @@ img {
 }
 
 .sales {
-  background: #8ED78F url('../img/icon-sales.png') no-repeat 195px 30px;
+  background: #8ED78F url('../img/icon-sales.png') no-repeat 195px 26px;
 }
 
 .delivery {
@@ -409,21 +412,24 @@ img {
   font-size: 24px;
   line-height: 30px;
   color: #fff;
-  padding: 23px 0 15px 25px;
+  padding: 20px 0px 12px 23px;
 }
 
 .offer-click {
   display: inline-block;
   text-decoration: none;
   margin: 0;
-  margin-left: 25px;
+  margin-left: 24px;
+  width: 125px;
+  height: 15px;
+  padding: 12px 5px;
+  text-align: center;
   font-size: 14px;
   line-height: 18px;
   color: #fff;
   text-transform: uppercase;
-  padding: 11px 23px;
   background: rgba(0, 0, 0, 0.1);
-  border-radius: 3%;
+  border-radius: 5px;
 }
 
 .offer-click:hover {
@@ -456,23 +462,31 @@ img {
 .popular-banner a {
   float: right;
   text-decoration: none;
-  width: 250px;
-  margin: 25px;
+  width: 251px;
+  margin: 26px;
 }
 
 .accent-title {
   float: left;
   line-height: 30px;
-  margin: 30px 0px 23px 30px;
+  margin: 0;
   font-size: 30px;
+  font-weight: 400;
   text-transform: uppercase;
   color: #3D546E;
 }
 
+.goods-title {
+  width: 300px;
+  padding-top: 30px;
+  margin-left: 27px;
+}
+
 .btn {
   display: block;
-  font-family: 'Cuprum';
+  font-family: "Cuprum", sans-serif, Arial;
   font-size: 14px;
+  line-height: 18px;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -491,7 +505,7 @@ img {
 }
 
 .popular-items-list {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif, Arial;
   font-size: 0;
 }
 
@@ -528,7 +542,7 @@ img {
   padding: 0 30px;
   font-size: 18px;
   line-height: 20px;
-  margin: 25px 0 10px 0;
+  margin: 25px 0 11px 0;
 }
 
 .price-old {
@@ -540,16 +554,17 @@ img {
   display: block;
   text-decoration: none;
   position: absolute;
-  left: 45px;
-  bottom: 20px;
+  left: 41px;
+  bottom: 21px;
   color: #fff;
-  width: 80px;
+  width: 136px;
   text-align: center;
   background: #EE3643;
   font-size: 17px;
   line-height: 18px;
+  font-weight: bold;
   margin: 0 auto;
-  padding: 10px 30px;
+  padding: 10px 3px 10px 0px;
   border-radius: 3px;
 }
 
@@ -575,7 +590,7 @@ img {
 }
 
 .catalog-button {
-  font-family: 'Cuprum', sans-serif;
+  font-family: "Cuprum", sans-serif, Arial;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -628,15 +643,21 @@ img {
   display: block;
 }
 
-.catalog-item:nth-child(4n):after {
+.new-flag::after {
   content: "";
   position: absolute;
   background: url('../img/new-flag.png') no-repeat 0 0;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
   width: 60px;
   height: 60px;
   z-index: 20;
+}
+
+.makers-title {
+  width: 500px;
+  padding-top: 30px;
+  margin-left: 24px;
 }
 
 .vendor-logo {
@@ -652,7 +673,7 @@ img {
 
 .vendors-list {
   font-size: 0px;
-  margin-bottom: 70px;
+  margin-bottom: 64px;
 }
 
 .vendor-logo:nth-child(4n) {
@@ -669,18 +690,20 @@ img {
 
 .services {
   background: #F4F8F9;
-  padding-top: 62px;
+  padding-top: 65px;
+  margin-bottom: 80px;
 }
 
 .services-about {
-  margin-bottom: 70px;
+  margin-bottom: 68px;
 }
 
 .about-title {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 26px;
   font-family: "Cuprum", sans-serif, Arial;
   font-size: 30px;
+  font-weight: 400;
   line-height: 30px;
   color: #000;
   text-transform: uppercase;
@@ -690,14 +713,10 @@ img {
   font-family: "PT Sans", sans-serif, Arial;
   font-size: 13px;
   line-height: 24px;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   color: #000;
-  font-weight: bold;
-}
-
-.services {
-  margin-bottom: 80px;
 }
 
 .service-list {
@@ -715,12 +734,12 @@ img {
 }
 
 .service-list-control {
-  box-sizing: border-box;
-  height: 60px;
+  height: 45px;
   display: block;
-  padding: 16px 0 18px 24px;
+  padding: 14px 0px 0px 22px;
   font-size: 21px;
   line-height: 30px;
+  font-weight: 800;
   background-color: #32425C;
   border-bottom: 1px solid #293449;
   border-top: 1px solid #405069;
@@ -763,13 +782,18 @@ img {
 
 .service-accent-title {
   font-family: "Cuprum", sans-serif, Arial;
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 800;
   color: #32425c;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
   margin-bottom: 26px;
+}
+
+.warranty-about, .credit-about {
+  display: none;
 }
 
 .delivery-info {
@@ -779,18 +803,40 @@ img {
 
 .warranty-info {
   width: 365px;
-  z-index: 10;
+  z-index: 9;
 }
 
 .credit-info {
   width: 285px;
-  z-index: 10;
+  z-index: 9;
 }
 
-.service-details::after {
+.delivery-about::after {
   content: "";
   position: absolute;
-  background: url('../img/delivery.png') no-repeat 0 0;
+  background: url("../img/delivery.png") no-repeat 0 0;
+  width: 468px;
+  height: 261px;
+  right: 2px;
+  top: 24px;
+  z-index: 1;
+}
+
+.warranty-about::after {
+  content: "";
+  position: absolute;
+  background: url("../img/warranty.png") no-repeat 0 0;
+  width: 468px;
+  height: 261px;
+  right: 0;
+  top: 20px;
+  z-index: 1;
+}
+
+.credit-about::after {
+  content: "";
+  position: absolute;
+  background: url("../img/credit.png") no-repeat 0 0;
   width: 468px;
   height: 261px;
   right: 0;
@@ -804,7 +850,7 @@ img {
 }
 
 .company {
-  padding-bottom: 86px;
+  padding-bottom: 85px;
 }
 
 .company-promo-column {
@@ -814,9 +860,10 @@ img {
 
 .company-promo-title, .company-contacts-title {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 23px;
   text-transform: uppercase;
   font-size: 30px;
+  font-weight: 400;
 }
 
 .company-promo-info {
@@ -839,6 +886,7 @@ img {
   margin: 0;
   margin-bottom: 34px;
   list-style: none;
+  padding-left: 35px;
 }
 
 .company-promo-list li:last-child {
@@ -850,15 +898,15 @@ img {
   margin-bottom: 20px;
   font-family: "Cuprum", sans-serif, Arial;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 19px;
   color: #000;
 }
 
 .company-promo-list li:before {
   content: "";
   position: absolute;
-  top: 7px;
-  left: -38px;
+  top: 9px;
+  left: -36px;
   width: 25px;
   height: 2px;
   background-color: #fb565a;
@@ -867,13 +915,13 @@ img {
 .company-about-btn {
   width: 220px;
   margin-right: 24px;
-  margin-top: 40px;
+  margin-top: 39px;
 }
 
 .company-feedback-btn {
   width: 300px;
   margin-right: 24px;
-  margin-top: 40px;
+  margin-top: 37px;
 }
 
 .company-contacts-column {
@@ -893,12 +941,12 @@ footer {
 .footer-panel-logo {
   float: left;
   width: 220px;
-  padding-top: 19px;
-  padding-bottom: 15px;
+  padding-top: 17px;
+  padding-bottom: 16px;
   text-align: center;
   font-size: 30px;
   line-height: 30px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -916,7 +964,7 @@ footer {
 
 .footer-upper-panel {
   min-height: 63px;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 
 .footer-panel-contacts {
@@ -925,15 +973,19 @@ footer {
   font-size: 0;
   margin: 0;
   padding: 0;
-  padding-top: 39px;
+  padding-top: 38px;
   list-style: none;
 }
 
 .footer-panel-contacts li {
   display: inline-block;
   vertical-align: top;
-  width: 120px;
+  margin: 0 7px 0 52px;
   text-align: right;
+}
+
+.footer-panel-contacts li:last-child {
+  margin-right: 0;
 }
 
 .footer-panel-contacts a {
@@ -966,12 +1018,16 @@ footer {
   padding: 0;
   color: #fff;
   font-size: 18px;
-  text-align: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footer-panel-address .footer-phone {
+  text-align: left;
+  padding-left: 4px;
 }
 
 .footer-panel-offer {
-  float: right;
-  width: 520px;
   font-size: 0;
   text-align: right;
 }
@@ -979,15 +1035,16 @@ footer {
 .footer-panel-offer li {
   display: inline-block;
   vertical-align: top;
-  width: 130px;
-  text-align: left;
+  text-align: right;
+  padding-top: 2px;
+  margin-left: 59px;
 }
 
 .footer-panel-offer a {
   text-decoration: none;
   color: #FFDA96;
   font-size: 18px;
-  text-align: 24px;
+  line-height: : 24px;
 }
 
 .footer-bottom-panel {
@@ -1016,6 +1073,7 @@ footer {
   margin-right: 117px;
   min-height: 40px;
   font-size: 0;
+  margin-top: -4px;
 }
 
 .footer-social-btn {
@@ -1042,15 +1100,15 @@ footer {
 }
 
 .footer-social-vk {
-  background: #212A3A url('../img/vk.png') no-repeat 50% 53%;
+  background: #212A3A url("../img/vk.png") no-repeat 45% 60%;
 }
 
 .footer-social-fb {
-  background: #212A3A url('../img/fb.png') no-repeat 50%;
+  background: #212A3A url("../img/fb.png") no-repeat 50%;
 }
 
 .footer-social-inst {
-  background: #212A3A url('../img/inst.png') no-repeat 50%;
+  background: #212A3A url("../img/inst.png") no-repeat 49%;
 }
 
 .footer-social-btn:hover, .footer-social-btn:active {
@@ -1111,7 +1169,7 @@ footer {
   height: 20px;
   top: 12px;
   left: 14px;
-  background: url('../img/icon-user.png') no-repeat 0 0;
+  background: url("../img/icon-user.png") no-repeat 0 0;
 }
 
 .header-block-user:hover {
@@ -1125,7 +1183,7 @@ footer {
   height: 20px;
   top: 12px;
   right: 10px;
-  background: url('../img/icon-logout.png') no-repeat 0 0;
+  background: url("../img/icon-logout.png") no-repeat 0 0;
 }
 
 .header-block-links {
@@ -1136,8 +1194,8 @@ footer {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 19px;
+  margin-right: 13px;
 }
 
 .header-middle-user a:last-child {
@@ -1192,46 +1250,47 @@ footer {
   top: 1px;
   width: 20px;
   height: 20px;
-  background: url('../img/icon-home.png') no-repeat 0 0;
+  background: url("../img/icon-home.png") no-repeat 0 0;
 }
 
 .breadcrumbs li:first-child:before {
   content: "";
   position: absolute;
-  left: 0;
+  left: -1px;
   top: 2px;
   width: 20px;
   height: 20px;
-  background: url('../img/icon-right.png') no-repeat 0 0;
+  background: url("../img/icon-right.png") no-repeat 0 0;
 }
 
 .breadcrumbs li:first-child:after {
   content: "";
   position: absolute;
-  left: 90px;
+  left: 92px;
   top: 2px;
   width: 20px;
   height: 20px;
-  background: url('../img/icon-right.png') no-repeat 0 0;
+  background: url("../img/icon-right.png") no-repeat 0 0;
 }
 
 .breadcrumbs li:last-child:before {
   content: "";
   position: absolute;
-  left: 210px;
+  left: 212px;
   top: 2px;
   width: 20px;
   height: 20px;
-  background: url('../img/icon-right.png') no-repeat 0 0;
+  background: url("../img/icon-right.png") no-repeat 0 0;
 }
 
-.calalog-header {
+.catalog-header {
   background: #F2F6F8;
   color: #32425C;
   font-size: 30px;
   line-height: 30px;
+  font-weight: 200;
   text-transform: uppercase;
-  padding: 27px;
+  padding: 30px 0px 28px 28px;
   margin: 0 0 20px;
 }
 
@@ -1243,13 +1302,13 @@ footer {
 }
 
 .side-topbar {
-  font-family: 'PT sans', sans-serif, Arial;
+  font-family: "PT sans", sans-serif, Arial;
   font-size: 12px;
   font-weight: 500;
   line-height: 18px;
   text-transform: uppercase;
   background: #F7F3EC;
-  padding: 11px 0 11px 16px;
+  padding: 11px 0 11px 19px;
   margin: 0 0 19px;
 }
 
@@ -1258,30 +1317,30 @@ footer {
 }
 
 .side-left h3 {
-  font-family: 'PT sans', sans-serif, Arial;
+  font-family: "PT sans", sans-serif, Arial;
   font-size: 17px;
   font-weight: bold;
   line-height: 30px;
   text-transform: uppercase;
   margin: 0;
   display: block;
-  padding: 0 0 10px;
+  margin-bottom: 12px;
 }
 
 .price-range {
   position: relative;
   font-size: 17px;
-  font-family: 'PT sans', sans-serif, Arial;
+  font-family: "PT sans", sans-serif, Arial;
   font-style: normal;
   width: 220px;
-  padding: 0 0 40px;
+  padding: 0 0 37px;
 }
 
 .price-range h3:after {
   content: "";
   width: 20px;
   height: 15px;
-  background: url('../img/technomart-sprites.png') no-repeat -150px -84px;
+  background: url("../img/technomart-sprites.png") no-repeat -150px -84px;
   left: 180px;
   position: absolute;
   top: 5px;
@@ -1299,7 +1358,7 @@ footer {
 .range-controls {
   position: relative;
   height: 80px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   padding: 0 30px;
   background: #F7F3EC;
   border-radius: 5px;
@@ -1307,7 +1366,7 @@ footer {
 }
 
 .range-controls .scale {
-  margin-top: 43px;
+  margin-top: 40px;
   height: 2px;
   background: #D7DCDE;
 }
@@ -1324,7 +1383,7 @@ footer {
   border: 8px solid white;
   background: #ABABAB;
   position: absolute;
-  top: 33px;
+  top: 31px;
   left: 19px;
   cursor: pointer;
   border-radius: 50%;
@@ -1336,9 +1395,8 @@ footer {
 }
 
 .price-controls input {
-  width: 70px;
-  padding: 8px 13px;
-  margin-left: 5px;
+  width: 97px;
+  padding: 10px 0px 10px 0px;
   border: none;
   background: #F7F3EC;
   font-size: 16px;
@@ -1346,6 +1404,10 @@ footer {
   text-align: center;
   color: #283136;
   border-radius: 5px;
+}
+
+.price-controls span {
+  margin-right: 5px;
 }
 
 .price-controls .min-price {
@@ -1357,7 +1419,7 @@ footer {
 }
 
 .makers {
-  padding: 0 0 40px;
+  padding: 0 0 34px;
   position: relative;
 }
 
@@ -1376,7 +1438,7 @@ footer {
 }
 
 .power-type {
-  padding: 0 0 40px;
+  padding: 0 0 74px;
   position: relative;
 }
 
@@ -1391,11 +1453,11 @@ footer {
 }
 
 .checkbox, .radiobutton {
-  font-family: 'PT sans', sans-serif, Arial;
+  font-family: "PT sans", sans-serif, Arial;
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
-  padding: 0 0 20px;
+  padding: 0 0 13px;
 }
 
 .checkbox:last-child, .radiobutton:last-child {
@@ -1407,55 +1469,55 @@ footer {
 }
 
 .makers label, .power-type label {
-  padding: 2px 0 5px 30px;
+  padding: 2px 0 5px 35px;
 }
 
 .makers .checkbox label {
-  background: url('../img/check-off.png') no-repeat 0 0;
+  background: url("../img/check-off.png") no-repeat 0 0;
 }
 
 .makers input:checked+label {
-  background: url('../img/check-on.png') no-repeat 0 0;
+  background: url("../img/check-on.png") no-repeat 0 0;
 }
 
 .makers input:checked:disabled+label {
-  background: url('../img/check-on.png') no-repeat 0 0;
+  background: url("../img/check-on.png") no-repeat 0 0;
   opacity: 0.3;
 }
 
 .power-type .radiobutton label {
-  background: url('../img/circle.png') no-repeat 0 0;
+  background: url("../img/circle.png") no-repeat 0 0;
 }
 
 .power-type input:checked+label {
-  background: url('../img/circle-dot.png') no-repeat 0 0;
+  background: url("../img/circle-dot.png") no-repeat 0 0;
 }
 
 .makers .checkbox label:hover {
-  background: url('../img/check-off.png') no-repeat 0 0;
+  background: url("../img/check-off.png") no-repeat 0 0;
 }
 
 .makers input:checked+label:hover {
-  background: url('../img/check-on.png') no-repeat 0 0;
+  background: url("../img/check-on.png") no-repeat 0 0;
 }
 
 .power-type .radiobutton label:hover {
-  background: url('../img/circle.png') no-repeat 0 0;
+  background: url("../img/circle.png") no-repeat 0 0;
 }
 
 .power-type input:checked+label:hover {
-  background: url('../img/circle-dot.png') no-repeat 0 0;
+  background: url("../img/circle-dot.png") no-repeat 0 0;
 }
 
 .filter-btn {
-  font-style: 'PT Sans', sans-serif, Arial;
-  font-size: 13px;
+  font-style: "PT Sans", sans-serif, Arial;
+  font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
   background: #fff;
   border: 1px solid #E5E5E5;
   border-radius: 5px;
-  padding: 11px 38px;
+  padding: 11px 38px 8px;
 }
 
 .filter-btn:hover {
@@ -1485,7 +1547,7 @@ footer {
 }
 
 .sort-option {
-  padding: 10px 5px 3px;
+  padding: 10px 5px 1px;
   color: #BCBCBC;
   font-weight: 400;
   line-height: 18px;
@@ -1525,27 +1587,43 @@ footer {
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
+}
+
+.sort-down::before {
+  background: url("../img/icon-down-b.png") no-repeat 0 0;
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  right: 18px;
   opacity: 0.5;
 }
 
-.sort-down {
-  background: url('../img/icon-down-b.png') no-repeat 0 0;
-}
-
-.sort-up {
+.sort-up::before {
   opacity: 1;
-  background: url('../img/icon-up-dir.png') no-repeat 0 0;
-  margin: 0;
-  margin-right: 5px;
+  background: url("../img/icon-up-dir.png") no-repeat 0 0;
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  right: 50px;
 }
 
-.sort-down-active:hover {
-  background: url('../img/icon-down-b.png') no-repeat 0 0;
+.sort-down:hover::before {
+  background: url("../img/icon-down-b.png") no-repeat 0 0;
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  right: 18px;
   opacity: 1;
 }
 
 .catalog-page {
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .catalog-item+.catalog-list {
@@ -1571,7 +1649,7 @@ footer {
   margin-right: 10px;
   border-radius: 5px;
   border: 1px solid #E5E5E5;
-  padding: 9.5px 16px 10px 15px;
+  padding: 10px 14px 10px 15px;
 }
 
 .catalog-paginator .catalog-paginator-next {
@@ -1599,16 +1677,17 @@ footer {
 .about-product h2 {
   color: #000;
   font-size: 30px;
-  margin: 0 0 20px;
+  font-weight: 200;
+  margin: 0 0 24px;
 }
 
 .text-container {
   text-transform: uppercase;
-  padding: 60px 0 70px;
+  padding: 62px 0 68px;
 }
 
 .text-container p {
-  font-family: 'PT sans', sans-serif, Arial;
+  font-family: "PT sans", sans-serif, Arial;
   color: #000000;
   line-height: 24px;
   margin: 0;
@@ -1760,7 +1839,7 @@ textarea {
   z-index: 999;
 }
 
-.cart-cross::before {
+.red-cross::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -1772,7 +1851,7 @@ textarea {
   font-size: 40px;
 }
 
-.cart-cross::after {
+.red-cross::after {
   content: "";
   position: absolute;
   top: -2px;
@@ -1784,7 +1863,7 @@ textarea {
   font-size: 40px;
 }
 
-.cart-cross {
+.red-cross {
   position: absolute;
   top: 20px;
   right: 35px;
@@ -1806,7 +1885,7 @@ textarea {
   left: -102px;
   width: 66px;
   height: 66px;
-  background: url('../img/cart-ok.png') no-repeat 0 0;
+  background: url("../img/cart-ok.png") no-repeat 0 0;
 }
 
 .cart-decision {
@@ -1836,4 +1915,17 @@ textarea {
   line-height: 18px;
   background-color: #fff;
   color: #000;
+}
+
+.big-map {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 940px;
+  height: 446px;
+  margin-top: -200px;
+  margin-left: -470px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  z-index: 999;
 }
