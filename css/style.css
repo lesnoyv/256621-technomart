@@ -1036,7 +1036,7 @@ footer {
   display: inline-block;
   vertical-align: top;
   text-align: right;
-  padding-top: 2px;
+  padding-top: 0px;
   margin-left: 59px;
 }
 
@@ -1044,7 +1044,7 @@ footer {
   text-decoration: none;
   color: #FFDA96;
   font-size: 18px;
-  line-height: : 24px;
+  line-height: 24px;
 }
 
 .footer-bottom-panel {
@@ -1064,7 +1064,7 @@ footer {
   padding: 0;
   color: #fff;
   font-size: 16px;
-  text-align: 18px;
+  line-height: 18px;
 }
 
 .footer-bottom-social {
@@ -1510,7 +1510,7 @@ footer {
 }
 
 .filter-btn {
-  font-style: "PT Sans", sans-serif, Arial;
+  font-family: "PT Sans", sans-serif, Arial;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
