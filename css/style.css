@@ -580,7 +580,7 @@ img {
 .catalog-item-buttons {
   display: none;
   position: absolute;
-  top: 0px;
+  top: 2px;
   left: 0;
   width: 218px;
   height: 83px;
@@ -620,7 +620,7 @@ img {
 }
 
 .catalog-item-bookmark {
-  padding: 9px 0;
+  padding: 8px 0;
   background: #fff;
   color: #32425C;
   border: 3px solid #60A03C;
