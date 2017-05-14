@@ -403,7 +403,9 @@ img {
   font-size: 24px;
   line-height: 30px;
   color: #fff;
-  padding: 20px 0 12px 23px
+  padding: 20px 0 12px 23px;
+  overflow: hidden;
+  max-width: 180px
 }
 
 .offer-click {
@@ -419,7 +421,8 @@ img {
   line-height: 18px;
   color: #fff;
   text-transform: uppercase;
-  border-radius: 5px
+  border-radius: 5px;
+  overflow: hidden
 }
 
 .offer-click:hover {
@@ -764,7 +767,9 @@ img {
   border: 0;
   border-bottom: 1px solid #293449;
   border-top: 1px solid #405069;
-  outline: 0
+  outline: 0;
+  max-height: 61px;
+  overflow: hidden
 }
 
 .service-active, .service-list-control:hover {
