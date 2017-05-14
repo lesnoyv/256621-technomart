@@ -231,7 +231,7 @@ img {
 
 .phone {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   border: 2px solid #FFFFFF;
   font-size: 21px;
   line-height: 17px;
@@ -269,7 +269,7 @@ img {
   text-decoration: none;
   background: #FFFFFF;
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   padding: 13px 25px;
   color: #000000;
 }
@@ -359,7 +359,7 @@ img {
 
 .slider {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   margin: 0;
   position: relative;
 }
@@ -404,7 +404,7 @@ img {
   background: url(../img/slider-dot.png) no-repeat 0 0;
   bottom: 38px;
   right: 293px;
-    border: none;
+  border: none;
 }
 
 .back-check {
@@ -415,7 +415,7 @@ img {
   background: url(../img/slider-indicator.png) no-repeat 0 0;
   bottom: 38px;
   left: 295px;
-    border: none;
+  border: none;
 }
 
 .materials {
@@ -454,7 +454,7 @@ img {
 
 .offer-click {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   text-decoration: none;
   margin: 0;
   margin-left: 24px;
@@ -577,7 +577,7 @@ img {
 .catalog-item {
   text-align: center;
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   position: relative;
   width: 220px;
   max-height: 318px;
@@ -586,7 +586,6 @@ img {
   margin: 0 20px 20px 0;
   border: 1px solid #ccc;
   font-weight: bold;
-
 }
 
 .catalog-item:nth-child(4n) {
@@ -611,7 +610,7 @@ img {
   line-height: 20px;
   margin: 25px 0 11px 0;
   max-height: 40px;
-overflow: hidden;
+  overflow: hidden;
 }
 
 .price-old {
@@ -735,7 +734,7 @@ overflow: hidden;
 
 .vendor-logo {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   height: 145px;
   width: 220px;
   margin: 0 20px 20px 0;
@@ -1321,6 +1320,14 @@ footer {
   border-radius: 50%;
 }
 
+.header-links-element:hover {
+  color: #EE3643;
+}
+
+.header-links-element:active {
+  opacity: 0.3;
+}
+
 .breadcrumbs {
   padding: 0;
   margin: 20px 20px 20px 30px;
@@ -1339,7 +1346,7 @@ footer {
 .breadcrumbs li {
   list-style: none;
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   margin: 0 20px;
 }
 
@@ -1585,6 +1592,11 @@ footer {
   opacity: 0.3;
 }
 
+.makers input:disabled+label {
+  background: url("../img/check-off.png") no-repeat 0 0;
+  opacity: 0.3;
+}
+
 .power-type .radiobutton label {
   background: url("../img/circle.png") no-repeat 0 0;
 }
@@ -1594,19 +1606,29 @@ footer {
 }
 
 .makers .checkbox label:hover {
-  background: url("../img/check-off.png") no-repeat 0 0;
+  background: url("../img/check-off-h.png") no-repeat 0 0;
 }
 
 .makers input:checked+label:hover {
-  background: url("../img/check-on.png") no-repeat 0 0;
+  background: url("../img/check-on-h.png") no-repeat 0 0;
 }
 
 .power-type .radiobutton label:hover {
-  background: url("../img/circle.png") no-repeat 0 0;
+  background: url("../img/circle-h.png") no-repeat 0 0;
 }
 
 .power-type input:checked+label:hover {
-  background: url("../img/circle-dot.png") no-repeat 0 0;
+  background: url("../img/circle-dot-h.png") no-repeat 0 0;
+}
+
+.power-type input:checked:disabled+label {
+  background: url("../img/circle-dot-h.png") no-repeat 0 0;
+  opacity: 0.3;
+}
+
+.power-type input:disabled+label {
+  background: url("../img/circle-h.png") no-repeat 0 0;
+  opacity: 0.3;
 }
 
 .filter-btn {
@@ -1639,7 +1661,7 @@ footer {
 
 .sort-controls li {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   margin: 0 30px;
 }
 
@@ -1747,7 +1769,7 @@ footer {
 
 .catalog-paginator a, .catalog-paginator span {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   margin-right: 10px;
   border-radius: 5px;
   border: 1px solid #E5E5E5;
@@ -1967,7 +1989,7 @@ textarea {
 
 .cart-order-btn {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   margin-left: 80px;
   width: 220px;
   border: none;
@@ -1981,7 +2003,7 @@ textarea {
 
 .cart-cancel-btn {
   display: inline-block;
-    vertical-align: top;
+  vertical-align: top;
   width: 220px;
   margin-left: 20px;
   font-size: 14px;
