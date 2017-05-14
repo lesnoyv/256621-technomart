@@ -6,8 +6,7 @@
   <title>HTML Academy: Техномарт</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i%7CPT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -15,7 +14,7 @@
     <div class="header-top">
       <div class="container">
         <div class="header-top-wrapper">
-          <a href="#" class="logo">Техномарт</a>
+          <h1 class="logo">Техномарт</h1>
 
           <form action="/search" method="post" class="search-top">
             <input type="text" id="search-top-box" name="search">
@@ -55,7 +54,7 @@
 
     <div class="container">
       <div class="header-bottom">
-        <a href="index.html">Главная</a>
+        <a href="#" class="page-active">Главная</a>
         <a href="#">Компания</a>
         <a href="catalog.html">Каталог</a>
         <a href="#">Новости</a>
@@ -68,42 +67,53 @@
 
   <div class="main-block">
     <div class="container clearfix">
-      <section class="goods-blocks">
+      <section class="goods-blocks clearfix">
         <div class="materials offer-block new-flag">
-          <p class="offer-title">Материалы</p>
+          <h3 class="offer-title">Материалы</h3>
           <a href="#" class="materials-list offer-click">На любой вкус</a>
         </div>
         <div class="instruments offer-block">
-          <p class="offer-title">Инструмент</p>
+          <h3 class="offer-title">Инструмент</h3>
           <a href="#" class="offer-click">На все случаи</a>
         </div>
         <div class="technics offer-block">
-          <p class="offer-title">Техника</p>
+          <h3 class="offer-title">Техника</h3>
           <a href="#" class="offer-click">Для стройки</a>
         </div>
       </section>
-      <section class="special-offer">
+      <section class="special-offer clearfix">
         <div class="slider">
 
           <div class="slider-1">
             <img src="img/slider-1.jpg" alt="Перфораторы" width="620" height="266">
+            <div class="slider-title">
+              <h2>Перфораторы</h2>
+              <p>Настроящие мужские игрушки</p>
+            </div>
+
             <a href="catalog.html" class="slider-btn btn">открыть каталог</a>
           </div>
 
           <div class="slider-2">
             <img src="img/slider-2.jpg" alt="Дрели" width="620" height="266">
+            <div class="slider-title">
+              <h2>Дрели</h2>
+              <p>Соседям на радость!</p>
+            </div>
             <a href="catalog.html" class="slider-btn btn">открыть каталог</a>
           </div>
-          <span id="next-slide" class="forward"></span>
-          <span id="prev-slide" class="back"></span>
+          <button type="button" id="next-slide" class="forward"></button>
+          <button type="button" id="prev-slide" class="back"></button>
+          <button type="button" id="next-slide-check" class="forward-check"></button>
+          <button type="button" id="prev-slide-check" class="back-check"></button>
         </div>
-        <div class="slider-offer">
+        <div class="slider-offer clearfix">
           <div class="sales offer-block">
-            <p class="offer-title">Скидки 50%</p>
+            <h3 class="offer-title">Скидки 50%</h3>
             <a href="#" class="sales-list offer-click">На 350 товаров</a>
           </div>
           <div class="delivery offer-block">
-            <p class="offer-title">Доставка</p>
+            <h3 class="offer-title">Доставка</h3>
             <a href="#" class="delivery-list offer-click">Бесплатно</a>
           </div>
         </div>
@@ -130,8 +140,8 @@
           <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
         </div>
         <a class="title" href="#">Перфоратор BOSCH BFG 9000</a>
-        <del class="price-old">32500 P.</del>
-        <ins class="price">25500 P.</ins>
+        <p class="price-old">32500 P.</p>
+        <p class="price">25500 P.</p>
       </div>
 
       <div class="catalog-item">
@@ -143,8 +153,8 @@
           <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
         </div>
         <a class="title" href="#">Перфоратор BOSCH BFG 3000</a>
-        <del class="price-old">22500 P.</del>
-        <ins class="price">15500 P.</ins>
+        <p class="price-old">22500 P.</p>
+        <p class="price">15500 P.</p>
       </div>
 
       <div class="catalog-item">
@@ -156,8 +166,8 @@
           <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
         </div>
         <a class="title" href="#">Перфоратор BOSCH BFG 6000</a>
-        <del class="price-old">30500 P.</del>
-        <ins class="price">25500 P.</ins>
+        <p class="price-old">30500 P.</p>
+        <p class="price">25500 P.</p>
       </div>
 
       <div class="catalog-item new-flag">
@@ -169,7 +179,7 @@
           <a href="#" class="catalog-button catalog-item-bookmark">В закладки</a>
         </div>
         <a class="title" href="#">Перфоратор BOSCH BFG 2000</a>
-        <ins class="price">12500 P.</ins>
+        <p class="price">12500 P.</p>
       </div>
     </section>
   </div>
@@ -220,12 +230,12 @@
 
       <div class="service-list clearfix">
         <ul class="left-list service-list-controls">
-          <li><a class="service-list-control service-active" href="#">Доставка</a></li>
-          <li><a class="service-list-control" href="#">Гарантия</a></li>
-          <li><a class="service-list-control" href="#">Кредит</a></li>
+          <li><button type="button" class="service-list-control service-active">Доставка</button></li>
+          <li><button type="button" class="service-list-control">Гарантия</button></li>
+          <li><button type="button" class="service-list-control">Кредит</button></li>
         </ul>
 
-        <div class="service-list-about">
+        <div class="service-list-about clearfix">
           <div class="service-details delivery-about">
             <h2 class="service-accent-title">Доставка</h2>
             <p class="about-title-info delivery-info">Мы с одовольствием доставим ваш товар прямо к вашему подьезду совершенно бесплатно!</p>
@@ -341,7 +351,7 @@
   </footer>
 
   <div class="container feedback">
-    <a href="#" class="feedback-cross"></a>
+    <button type="button" class="red-cross"></button>
     <form action="/feedback" method="post">
       <div class="feedback-userdata">
         <div class="feedback-block clearfix">
@@ -365,7 +375,7 @@
   </div>
 
   <div class="big-map">
-    <a href="#" class="red-cross"></a>
+    <button type="button" class="red-cross"></button>
     <img src="img/big-map.jpg" width="940" height="446" alt="Большая карта">
 
   </div>

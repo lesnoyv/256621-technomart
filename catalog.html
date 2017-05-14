@@ -6,8 +6,7 @@
   <title>HTML Academy: Техномарт</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i%7CPT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -46,7 +45,9 @@
           </div>
           <div class="entry header-middle-user">
             <a href="#" class="header-block-user">Равшан Джамшутович</a>
+            <a href="#" class="logout" title="Выход из личного кабинета"></a>
             <div class="header-block-links">
+
               <a href="#" class="header-links-element">Мои заказы</a>
               <a href="#" class="header-links-element">Личный кабинет</a>
             </div>
@@ -60,7 +61,7 @@
 
         <a href="index.html">Главная</a>
         <a href="#">Компания</a>
-        <a href="catalog.html">Каталог</a>
+        <a href="#" class="page-active">Каталог</a>
         <a href="#">Новости</a>
         <a href="#">Спецпредложения</a>
         <a href="#">Доставка</a>
@@ -369,12 +370,12 @@
   </footer>
 
   <div class="cart">
-    <a href="#" class="red-cross"></a>
+    <button type="button" class="red-cross"></button>
     <form action="/cart" method="post">
       <p class="cart-title">Товар добавлен в корзину!</p>
       <div class="cart-decision">
         <button type="submit" class="cart-order-btn btn">Оформить заказ</button>
-        <a href="#" class="cart-cancel-btn btn">Продолжить покупки</a>
+        <button type="button" class="cart-cancel-btn btn">Продолжить покупки</button>
       </div>
     </form>
   </div>
