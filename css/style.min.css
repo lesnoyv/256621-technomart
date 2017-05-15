@@ -572,7 +572,6 @@ img {
 .price, .price-old {
   color: #a9a9a9;
   font-size: 17px;
-  text-decoration: line-through;
   padding: 0;
   margin: 0 0 4px
 }
@@ -590,6 +589,10 @@ img {
   margin: 0 auto;
   padding: 10px 3px 10px 0;
   border-radius: 3px
+}
+
+.price-old {
+  text-decoration: line-through;
 }
 
 .new-flag::after, .price::after {
