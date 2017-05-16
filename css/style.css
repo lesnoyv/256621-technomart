@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 13px;
 }
 
@@ -27,7 +27,7 @@ img {
 
 .header-block {
   font-size: 17px;
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
 }
 
 .header-top {
@@ -43,7 +43,7 @@ img {
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
-  font-weight: 700;
+  font-weight: 400;
   background: #EE3643;
   font-size: 24px;
   line-height: 42px;
@@ -63,7 +63,7 @@ img {
 }
 
 .search-top input {
-  font-family: "Cuprum", sans-serif, Arial;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
   line-height: 17px;
   font-weight: 400;
@@ -85,7 +85,7 @@ img {
 }
 
 .search-top input:active {
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   background: #FFFFFF;
   opacity: 1;
 }
@@ -134,7 +134,7 @@ img {
   opacity: 1;
 }
 
-.top-bookmarks:hover:active {
+.top-bookmarks:active {
   opacity: 0.2;
 }
 
@@ -165,7 +165,7 @@ img {
   opacity: 1;
 }
 
-.top-basket:hover:active {
+.top-basket:active {
   opacity: 0.2;
 }
 
@@ -194,7 +194,7 @@ img {
   background: #5FBB2D;
 }
 
-.top-order:hover:active {
+.top-order:active {
   opacity: 0.2;
 }
 
@@ -451,7 +451,7 @@ img {
   color: #FFFFFF;
   padding: 20px 0px 12px 23px;
   overflow: hidden;
-    max-width: 180px;
+  max-width: 180px;
 }
 
 .offer-click {
@@ -512,7 +512,7 @@ img {
 }
 
 .slider-title p {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 24px;
   font-weight: 200;
@@ -552,7 +552,7 @@ img {
 
 .btn {
   display: block;
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #FFFFFF;
@@ -573,7 +573,7 @@ img {
 }
 
 .popular-items-list {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 0;
 }
 
@@ -665,7 +665,7 @@ img {
 }
 
 .catalog-button {
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
@@ -777,7 +777,7 @@ img {
 .about-title {
   margin: 0;
   margin-bottom: 26px;
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   font-weight: 400;
   line-height: 30px;
@@ -786,7 +786,7 @@ img {
 }
 
 .about-title-info {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   font-weight: 400;
@@ -808,7 +808,7 @@ img {
 }
 
 .service-list-control {
-  font-family: "Cuprum", sans-serif, Arial;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 21px;
   line-height: 30px;
   font-weight: 700;
@@ -861,7 +861,7 @@ img {
 }
 
 .service-accent-title {
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 35px;
   line-height: 35px;
   font-weight: 700;
@@ -956,7 +956,7 @@ img {
 }
 
 .company-promo-info, .company-contacts-info {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -974,9 +974,9 @@ img {
 }
 
 .company-promo-list li {
+  font-family: "Cuprum", "Arial", sans-serif;
   position: relative;
   margin-bottom: 20px;
-  font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 19px;
   color: #000000;
@@ -1020,7 +1020,7 @@ img {
   height: 158px;
 }
 
-footer {
+.footer-block {
   background-color: #32425C;
 }
 
@@ -1306,7 +1306,7 @@ footer {
 }
 
 .header-links-element {
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -1340,7 +1340,7 @@ footer {
 }
 
 .breadcrumbs a, .breadcrumbs span, .catalog-options span, .catalog-paginator a, .catalog-paginator span, .catalog-filter-column p {
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -1414,7 +1414,7 @@ footer {
 }
 
 .side-topbar {
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
@@ -1429,7 +1429,7 @@ footer {
 }
 
 .side-left h3 {
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 30px;
@@ -1442,7 +1442,7 @@ footer {
 .price-range {
   position: relative;
   font-size: 17px;
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
   width: 220px;
   padding: 0 0 37px;
@@ -1565,11 +1565,12 @@ footer {
 }
 
 .checkbox, .radiobutton {
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
   padding: 0 0 13px;
+  cursor: pointer;
 }
 
 .checkbox:last-child, .radiobutton:last-child {
@@ -1637,7 +1638,7 @@ footer {
 }
 
 .filter-btn {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1816,7 +1817,7 @@ footer {
 }
 
 .text-container p {
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
   line-height: 24px;
   margin: 0;
@@ -1841,7 +1842,7 @@ footer {
   z-index: 999;
 }
 
-label {
+.feedback-data, .check-title {
   display: block;
   cursor: pointer;
 }
@@ -1916,14 +1917,14 @@ label {
 }
 
 .feedback input, .feedback textarea {
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   font-weight: 400;
   color: #000000;
 }
 
-textarea {
+.feedback-text {
   width: 440px;
   height: 98px;
   padding-top: 9px;
@@ -2031,4 +2032,8 @@ textarea {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
   background: #EFEAE4;
   z-index: 999;
+}
+
+.big-map-show {
+  display: block;
 }
